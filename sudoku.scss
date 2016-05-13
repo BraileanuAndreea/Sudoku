@@ -1,0 +1,26 @@
+.matrix {
+	width: 270px;
+	height: 270px;
+	margin: 0 auto;
+	border: 1px solid black;
+	border-radius: 8px;
+}
+.cells {
+	width: 90px;
+	height: 90px;
+	float: left;
+}
+.cell {
+	width: 30px;
+	height: 30px;
+	box-sizing: border-box;
+	float: left;
+	border:0;
+	border-right:1px dotted black;
+	border-bottom: 1px dotted black;
+	text-align: center;
+	line-height: 30px;
+}
+.c-2-2,.c-2-5,.c-2-8 {
+	border-right:0;
+}
